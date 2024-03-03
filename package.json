@@ -1,5 +1,5 @@
 {
-  "name": "indexeddb.js",
+  "name": "indexeddb-ts",
   "version": "1.0.0",
   "description": "A pure Node.js implementation of the async W3C Index DB API.",
   "main": "index.js",
