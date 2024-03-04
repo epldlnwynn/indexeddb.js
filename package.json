@@ -1,35 +1,36 @@
 {
-  "name": "indexeddb-ts",
-  "version": "1.0.0",
-  "description": "A pure Node.js implementation of the async W3C Index DB API.",
-  "main": "index.js",
-  "author": "epldlnwynn",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/epldlnwynn/indexeddb.js"
-  },
-  "types": "./index.d.ts",
-  "scripts": {
-    "benchmarks": "node ./benchmarks/run",
-    "benchmarks-browserify": "./node_modules/.bin/browserify ./benchmarks/runInBrowser.js >./benchmarks/runInBrowser.bundle.js",
-    "dtslint": "dtslint",
-    "test": "mocha tests/*.js"
-  },
-  "keywords": [
-    "react",
-    "indexeddb",
-    "util",
-    "utility"
-  ],
-  "files": [
-    "HISTORY.md",
-    "LICENSE",
-    "README.md",
-    "*.d.ts",
-    "*.js"
-  ],
-  "devDependencies": {
-      "typescript": "^4.0.5"
-  }
+    "name": "indexeddb-ts",
+    "version": "1.0.1",
+    "description": "A pure Node.js implementation of the async W3C Index DB API.",
+    "main": "index.js",
+    "author": "epldlnwynn",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/epldlnwynn/indexeddb.js"
+    },
+    "types": "./index.d.ts",
+    "scripts": {
+        "benchmarks": "node ./benchmarks/run",
+        "benchmarks-browserify": "./node_modules/.bin/browserify ./benchmarks/runInBrowser.js >./benchmarks/runInBrowser.bundle.js",
+        "dtslint": "dtslint",
+        "test": "mocha tests/*.js"
+    },
+    "keywords": [
+        "react",
+        "indexeddb",
+        "util",
+        "utility"
+    ],
+    "files": [
+        "HISTORY.md",
+        "LICENSE",
+        "README.md",
+        "lib/*.ts",
+        "*.d.ts",
+        "*.js"
+    ],
+    "devDependencies": {
+        "typescript": "^4.0.5"
+    }
 }
