@@ -1,6 +1,6 @@
 {
     "name": "indexeddb-ts",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A pure Node.js implementation of the async W3C Index DB API.",
     "main": "index.js",
     "author": "epldlnwynn",
@@ -32,5 +32,8 @@
     ],
     "devDependencies": {
         "typescript": "^4.0.5"
+    },
+    "dependencies": {
+        "@epldlnwynn/shortcut-js": "^1.0.4"
     }
 }

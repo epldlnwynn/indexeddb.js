@@ -2,7 +2,12 @@
 # yarn lockfile v1
 
 
+"@epldlnwynn/shortcut-js@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/@epldlnwynn/shortcut-js/-/shortcut-js-1.0.4.tgz"
+  integrity sha512-Z4c6CBy8tXzgjvbZcrXBRn7hDNItoLQ48Pgkbhws5jOC3KqdC1eRMCvreU/nRTbWWqCFwfGTRNwAyjOodgjPTQ==
+
 typescript@^4.0.5:
   version "4.9.5"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz"
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
